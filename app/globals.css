@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+div, p {
+  animation: ease-in-out animate 0.2s;
+}
+
+@keyframes animate {
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    transform: 1;
+  }
+}
