@@ -60,13 +60,14 @@ const Form = () => {
           />
         </div> */}
         {/* <div className="mt-1 sm:mt-3 sm:ml-3 flex sm:flex-auto w-full sm:w-auto"> */}
-          <button
+          <a
+           href="https://buy.stripe.com/eVa2bh2jO0rrbIs3cu"
             type="submit"
             className="right-2 sm:top-2 w-full sm:w-auto block  rounded-sm bg-activeButton py-3 px-4 font-medium text-white shadow hover:bg-activeButton disabled:cursor-not-allowed"
-            disabled={mail === "" || loading}
+
           >
               Pre-order <span className="line-through">($199)</span> $19
-          </button>
+          </a>
         {/* </div> */}
       </div>
       <span className="text-sm px-2 italic text-red-500">{message}</span>

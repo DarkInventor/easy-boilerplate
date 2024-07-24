@@ -21,7 +21,7 @@
               </Link>
             </li>
             <li className="bg-activeButton text-white rounded py-2">
-              <Link href={config.subscribeForm} passHref legacyBehavior>
+              <Link  href="https://buy.stripe.com/eVa2bh2jO0rrbIs3cu" passHref legacyBehavior>
                 <a
                   className="p-5 rounded text-sm"
                   target="_blank"

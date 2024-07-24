@@ -25,9 +25,9 @@ const Price = () => {
               <span className="text-4xl font-bold text-activeButton">
                 {config.contents.price.price}/month
               </span>
-              <button className="bg-primary rounded-md py-4 px-16 text-black uppercase font-medium text-base">
+              <a className="bg-primary rounded-md py-4 px-16 text-black uppercase font-medium text-base"  href="https://buy.stripe.com/eVa2bh2jO0rrbIs3cu">
                 Pre-order <span className="line-through">($199)</span> $19
-              </button>
+              </a>
             </div>
           </div>
         </div>
